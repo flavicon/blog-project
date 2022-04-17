@@ -2,8 +2,10 @@
     --ice-100: #E4FEFF;
     --ice-200: #E6F4F1;
     --ice-300: #E1F5EE;
+    --ice-border: #e4feff1f;
 
-    --dark-500: #002022;
+    --dark: #002022;
+    --dark-border: #002022a2;
     
     --orange-200: #FF8946;
     --orange-500: #A73A00;
@@ -23,6 +25,8 @@
     --gradient-cyan: linear-gradient(to right top, #5ebec2, #50afb3, #42a1a5, #339296, #228488, #18787c, #0d6c71, #006065, #005358, #00464c, #00393f, #002d33);
     --gradient-orange: linear-gradient(to right top, #ff8946, #ee7a39, #de6b2d, #cd5d20, #bd4e13, #b3450d, #aa3c06, #a03301, #9a2e01, #952901, #8f2401, #891f00);
     --gradient-green: linear-gradient(to right top, #93f8b3, #88eda9, #7ee29f, #73d895, #69cd8b, #60c482, #56ba7a, #4db171, #42a768, #369c5e, #2a9255, #1b884c);
+    --background: linear-gradient(to right top, #007276, #007377, #007478, #00767a, #00777b, #007478, #007175, #006e72, #00666a, #005e62, #00575b, #004f53);
+    --gradient-cyan-dark: linear-gradient(to right top, #004f53, #00484d, #004247, #003b41, #00353b, #00353b, #00353b, #00353b, #003b41, #004247, #00484d, #004f53);
 }
 
 * {
@@ -33,10 +37,11 @@
 
 html, body {
     height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body {
-    background: var(--cyan-900);
+    background: var(--background);
     color: var(--ice-300);
 }
 

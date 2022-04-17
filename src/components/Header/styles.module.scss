@@ -1,8 +1,10 @@
 .container {
+    padding: 0 2rem;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--ice-border);
 
     .title {
         font-size: 1.5rem;
