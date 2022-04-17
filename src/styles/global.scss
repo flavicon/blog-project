@@ -1,0 +1,50 @@
+:root {
+    --ice-100: #E4FEFF;
+    --ice-200: #E6F4F1;
+    --ice-300: #E1F5EE;
+
+    --dark-500: #002022;
+    
+    --orange-200: #FF8946;
+    --orange-500: #A73A00;
+    --orange-800: #891F00;
+
+    --cyan-100: #5EBEC2;
+    --cyan-300: #31979B;
+    --cyan-500: #00797D;
+    --cyan-600: #007276;
+    --cyan-700: #004F53;
+    --cyan-900: #002D33;
+
+    --green-100: #93F8B3;
+    --green-300: #5BBF7E;
+    --green-500: #1B884C;
+
+    --gradient-cyan: linear-gradient(to right top, #5ebec2, #50afb3, #42a1a5, #339296, #228488, #18787c, #0d6c71, #006065, #005358, #00464c, #00393f, #002d33);
+    --gradient-orange: linear-gradient(to right top, #ff8946, #ee7a39, #de6b2d, #cd5d20, #bd4e13, #b3450d, #aa3c06, #a03301, #9a2e01, #952901, #8f2401, #891f00);
+    --gradient-green: linear-gradient(to right top, #93f8b3, #88eda9, #7ee29f, #73d895, #69cd8b, #60c482, #56ba7a, #4db171, #42a768, #369c5e, #2a9255, #1b884c);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    background: var(--cyan-900);
+    color: var(--ice-300);
+}
+
+input, textarea, select, button, a {
+    outline: 0;
+    border: none;
+} 
+
+button, a {
+    cursor: pointer;
+}
